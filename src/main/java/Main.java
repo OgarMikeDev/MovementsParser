@@ -35,6 +35,7 @@ public class Main {
                 Matcher matcher = pattern.matcher(descriptionOperation);
                 while (matcher.find()) {
                     //descriptionOperation = matcher.group();
+
                     int start = matcher.start();
                     start++;
                     int end = matcher.end();
